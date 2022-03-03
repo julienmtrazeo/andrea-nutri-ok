@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Nutricionista | Andrea Moya Henriquez</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="./ressources/favicon.ico" type="image/x-icon">
+
+  <!-- Polices de caractères -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/83b28a1b19.js" crossorigin="anonymous"></script>
+
+  <!-- Feuilles de style -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/basemedias.css">
+  <link rel="stylesheet" media="only screen and (width: 320px) and (height: 480px)" href="css/iphone4.css">
+  <link rel="stylesheet" media="only screen and (width: 768px) and (height: 1024px)" href="css/ipad.css">
+  <link rel="stylesheet" media="only screen and (width: 1024px) and (height: 768px)" href="css/ipad-land.css">
+  <!-- etc. -->
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+  <!-- GreenSock -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js" integrity="sha512-O+atZ/gABlcFlpIoLQR04f72qHqZWKwTVsQZHqk/8VE2nrzDlnqhXbnXP7Gh/TyhpPT8tEUm5A580GG8AloHTA==" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <!-- Section Header -->
+  <header id="inicio">
+    <nav id="navigation">
+      <a href="#inicio" class="liensNav" onclick="toggleNav()">Inicio</a>
+      <a href="#valeurs" class="liensNav" onclick="toggleNav()">Presentacion</a>
+      <a href="#contact" class="liensNav" onclick="toggleNav()">Contact</a>
+      <a class="icon" id="icon" onclick="toggleNav()">
+        <i class="fas fa-bars"></i>
+      </a>
+    </nav>
+
+    <h1>Andrea Moya Henríquez</h1>
+    <h2>Nutricionista.</h2>
+
+    <a href="#section-about" id="arrow">
+      <i class="fab fa-nutritionix"></i>
+    </a>
+  </header>
+
+  <!-- Section About -->
+  <section id="section-about" class="section-about">
+    <div class="centerH">
+      <h2 class="titreAbout">
+        ¿ Quien soy yo ?
+      </h2>
+    </div>
+    <div class="row">
+      <div class="col-1-of-2">
+        <h3 class="sousTitreAbout">Presentacion de la nutricionista.</h3>
+        <p class="paragraphe">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus culpa ad mollitia fugit! Harum debitis id necessitatibus eaque facere. Nostrum illum pariatur reiciendis? Nisi, quisquam sapiente. Odit inventore nemo numquam.
+        </p>
+        <h3 class="sousTitreAbout">Mi método.</h3>
+        <p class="paragraphe">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus culpa ad mollitia fugit! Harum debitis id necessitatibus eaque facere. Nostrum illum pariatur reiciendis? Nisi, quisquam sapiente. Odit inventore nemo numquam.
+        </p>
+      </div>
+      <div class="col-1-of-2">
+        <div class="composition">
+          <img src="./ressources/andrea-nutri.jpg" alt="foto Andrea" class="composition_photo composition_photo--1">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Contact -->
+  <section id="contact">
+    <h2>Contacto</h2>
+    <h3><a href="tel:+560000000000"> +56 00 00 00 00 00</a></h3>
+    <div class="flexMedias">
+      <div class="medias">
+        <a href="https://www.doctoralia.cl/andrea-moya-henriquez/nutricionista/vina-del-mar" target="_blank" title="Doctoralia">
+          <i class="fas fa-calendar-check"></i>
+        </a>
+      </div>
+      <div class="medias">
+        <a href="https://www.facebook.com" target="_blank" title="Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+  <script src="./js/app.js"></script>
+  <script src="./js/greensock.js"></script>
+</body>
+</html>
