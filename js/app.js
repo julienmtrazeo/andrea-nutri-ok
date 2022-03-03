@@ -1,6 +1,7 @@
 let nav = document.getElementById("navigation");
 let liens = document.getElementsByClassName("liensNav");
 let icon = document.getElementById("icon");
+let body = document.body;
 
 window.onresize = colorHeader;
 window.onload = colorHeader;
@@ -15,13 +16,15 @@ function colorHeader() {
         liens[0].style.color = "white";
         liens[1].style.color = "white";
         liens[2].style.color = "white";
-        liens[3].style.color = "white";
+        //liens[3].style.color = "white";
+        body.className = "blue";
       } else {
         nav.style.background = "#6D9D3A";
         liens[0].style.color = "#23658D";
         liens[1].style.color = "#23658D";
         liens[2].style.color = "#23658D";
-        liens[3].style.color = "#23658D";
+        //liens[3].style.color = "#23658D";
+        body.className = "green";
       }
     } else {
       // pas sûr que cette partie serve mais je fais comme le cours

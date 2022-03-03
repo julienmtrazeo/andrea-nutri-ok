@@ -199,8 +199,15 @@ header #arrow {
   top: 10rem;
 }
 
-.composition_photo:hover {
-  outline: 1.5rem solid #c0b283;
+.blue .composition_photo:hover {
+  outline: 1.5rem solid #23658d;
+  transition: scale(1.05) translateY(-0.5rem);
+  box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+  z-index: 30;
+}
+
+.green .composition_photo:hover {
+  outline: 1.5rem solid #6d9d3a;
   transition: scale(1.05) translateY(-0.5rem);
   box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
   z-index: 30;
@@ -212,7 +219,7 @@ header #arrow {
 
 /* Section Tarifs */
 #tarifs {
-  border-top: 1px dashed rgb(209, 174, 59);
+  border-top: 1px dashed rgb(109, 157, 58);
 }
 
 #tarifs h2 {
@@ -309,7 +316,7 @@ header #arrow {
 #phrasesSlide {
   height: 60rem;
   width: 100%;
-  border-top: 1px dashed rgb(209, 174, 59);
+  border-top: 1px dashed rgb(109, 157, 58);
   background: url(../ressources/sectionBg.jpg);
   background-size: cover;
   background-position: center;
@@ -394,7 +401,7 @@ header #arrow {
   height: 72rem;
   width: 100%;
   background: #f7f7f7;
-  border-top: 1px dashed rgb(209, 174, 59);
+  border-top: 1px dashed rgb(109, 157, 58);
   padding-bottom: 10rem;
 }
 
@@ -483,7 +490,7 @@ header #arrow {
 #contact {
   height: 20rem;
   width: 100%;
-  border-top: 1px dashed rgb(209, 174, 59);
+  border-top: 1px dashed rgb(109, 157, 58);
 }
 
 #contact h2 {
