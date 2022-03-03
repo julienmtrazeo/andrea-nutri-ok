@@ -46,10 +46,3 @@ TweenMax.from("#navigation a:nth-child(3)", 2.5, {
   y: 20,
   ease: Expo.easeInOut,
 });
-
-TweenMax.from("#navigation a:nth-child(4)", 2.5, {
-  delay: 1.2,
-  opacity: 0,
-  y: 20,
-  ease: Expo.easeInOut,
-});

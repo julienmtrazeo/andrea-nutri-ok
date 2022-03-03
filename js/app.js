@@ -16,14 +16,12 @@ function colorHeader() {
         liens[0].style.color = "white";
         liens[1].style.color = "white";
         liens[2].style.color = "white";
-        //liens[3].style.color = "white";
         body.className = "blue";
       } else {
         nav.style.background = "#6D9D3A";
         liens[0].style.color = "#23658D";
         liens[1].style.color = "#23658D";
         liens[2].style.color = "#23658D";
-        //liens[3].style.color = "#23658D";
         body.className = "green";
       }
     } else {
@@ -32,7 +30,6 @@ function colorHeader() {
       liens[0].style.color = "#23658D";
       liens[1].style.color = "#23658D";
       liens[2].style.color = "#23658D";
-      liens[3].style.color = "#23658D";
     }
   };
 }
@@ -81,14 +78,6 @@ $(".liensNav:nth-child(2)").click(function () {
   );
 });
 $(".liensNav:nth-child(3)").click(function () {
-  $("html,body").animate(
-    {
-      scrollTop: $("#tarifs").offset().top - 50,
-    },
-    "slow"
-  );
-});
-$(".liensNav:nth-child(4)").click(function () {
   $("html,body").animate(
     {
       scrollTop: $("#contact").offset().top - 50,
